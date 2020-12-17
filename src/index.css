@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  background: #f3f1f2;
+  font-family: sans-serif;
+}
+
+.article {
+  margin: 1rem 4rem;
+}
+
+.article .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.article .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+/* Bubble Theme */
+.article .ql-bubble .ql-editor {
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.article .ql-editor {
+  min-height: 18em;
+}
+
+.article button {
+  margin: 18px 0;
+  padding: 11px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333333;
+  color: #fff;
+}
